@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class MainFile{
     public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
         System.out.println(Colors.RED + "#myGAYLIFE by Olive Willes");
         x.l();
         TheImages images = new TheImages();
@@ -10,7 +11,8 @@ public class MainFile{
         } else {
             System.out.println("[Flag image missing]");
         }
-        x.waitForEnter();
+        x.pl("Press Enter to play");
+        x.simpleEnter();
         one.go();
     }
 }
