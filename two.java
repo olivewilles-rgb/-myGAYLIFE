@@ -8,8 +8,8 @@ public class two {
         x.pl("Here's your schedule: ");
         x.simpleEnter();
         x.pl("Classes:");
-        x.pl("8:00 - 8:57: Dissection");
-        x.pl("12:00 - 2:34: Inspection");
+        x.pl("8:00 - 8:57: Inspection");
+        x.pl("12:00 - 2:34: Dissection");
         x.pl("3:15 - 3:40: Writing");
         x.simpleEnter();
         x.pl("Do you like your schedule?");
@@ -17,20 +17,28 @@ public class two {
         String answer = input.nextLine();
         
         if(answer.equals("Yes") || answer.equals("yes")){
+            x.pl("");
             x.pl("Good because you can't change it.");
         }
         else{
+            x.pl("");
             x.pl("Doesn't matter because you can't change it.");
         }
         
         x.simpleEnter();
         x.p("OK.");
+        x.pl("");
         x.noLineEnter();
-        x.p(" Sorry.");
+        x.p("Sorry.");
+        x.pl("");
         x.simpleEnter();
-        x.p(" School is going to be really fun.");
+        x.p("School is going to be really fun.");
+        x.pl("");
         x.simpleEnter();
-        x.pl(" Please get to class and stop wasting time.");
+        x.p("🤑😩😩😩🤏😁");
+        x.pl("");
+        x.simpleEnter();
+        x.pl("Please get to class and stop wasting time.");
         
         x.simpleEnter();
         three.go();
