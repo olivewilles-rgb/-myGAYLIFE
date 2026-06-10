@@ -20,14 +20,14 @@ public class one {
         x.p("Luckily you were accepted to the United States American Academy School Boarding School for Young Women Aged 14 to 18! Awesome!");
         x.l();
         x.simpleEnter();
-        x.p("The only thing you need to know is that NO ONE can find out the reason for your expulsion. I mean your dismissal.");
+        x.p("The only thing you need to know is that NO ONE can find out the reason for your expulsion. I mean... your dismissal.");
         x.l();
         x.simpleEnter();
         x.p("What?");
         x.l();
         x.simpleEnter();
         x.p("First Day! Good luck!");
-        x.l();
+        x.simpleEnter();
         x.l();
         x.l();
         x.p("[Press Enter to continue]");
@@ -36,4 +36,3 @@ public class one {
         two.go();
     }
 }
-
