@@ -77,6 +77,8 @@ public class four {
             x.pl("They say: Yes my next class is Dissection and I would love two Walk you there! !");
             x.simpleEnter();
             x.pl("You reply: Thank you :) : ) :)");
+            x.simpleEnter();
+            x.pl("That was so nice. Class is starting now");
         }
         
         x.simpleEnter();
