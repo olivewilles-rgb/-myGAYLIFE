@@ -29,8 +29,7 @@ public class one {
         x.p("First Day! Good luck!");
         x.simpleEnter();
         x.l();
-        x.l();
-        x.p("[Press Enter to continue]");
+        x.p(Colors.CYAN + "[Press Enter to continue]");
         x.simpleEnter();
         
         two.go();
