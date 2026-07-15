@@ -11,7 +11,7 @@ public class MainFile{
         } else {
             System.out.println("[Flag image missing]");
         }
-        x.pl("Press Enter to play");
+        x.p("Press Enter to play");
         x.simpleEnter();
         one.go();
     }
