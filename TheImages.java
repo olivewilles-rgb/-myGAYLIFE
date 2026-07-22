@@ -45,12 +45,3 @@ public class TheImages {
         }
     }
 }
-
-
-//      TheImages images = new TheImages();
-//         String pigArt = images.getNotSure("Pig");
-//         if (pigArt != null) {
-//             System.out.println(pigArt);
-//         } else {
-//             System.out.println("[Pig image missing]");
-//         }
